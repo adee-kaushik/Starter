@@ -22,6 +22,15 @@ function Footer() {
       <p className="font-body text-center text-sm text-white/60 mt-6">
         {businessData.address}
       </p>
+    <div className="max-w-5xl mx-auto mt-8">
+  <iframe
+    src="https://www.google.com/maps?q=Johari+Bazaar+Jaipur&output=embed"
+    className="w-full h-64 rounded-lg border-0"
+    loading="lazy"
+    title="Location"
+  ></iframe>
+</div>
+
       <p className="font-body text-center text-sm text-white/40 mt-2">
         © 2026 {businessData.name}. All rights reserved.
       </p>
