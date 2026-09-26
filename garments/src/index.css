@@ -4,3 +4,17 @@
 html, body {
   overflow-x: hidden;
 }
+@theme {
+  --color-brand-bg: #FBF6EE;
+  --color-brand-maroon: #7A2E38;
+  --color-brand-gold: #C9962C;
+  --color-brand-text: #2A1E1F;
+  --color-brand-muted: #7A6F63;
+
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
